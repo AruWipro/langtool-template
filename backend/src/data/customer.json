@@ -1,0 +1,44 @@
+[
+  {
+    "customerId": "cust001",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "address": "123 Main St"
+  },
+  {
+    "customerId": "cust002",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "987-654-3210",
+    "address": "456 Oak Ave"
+  },
+  {
+    "customerId": "cust003",
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "phone": "555-123-4567",
+    "address": "789 Pine Ln"
+  },
+    {
+    "customerId": "cust004",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "111-222-3333",
+    "address": "101 Elm St"
+  },
+  {
+    "customerId": "cust005",
+    "name": "Bob Williams",
+    "email": "bob.williams@example.com",
+    "phone": "444-555-6666",
+    "address": "222 Maple Dr"
+  },
+  {
+    "customerId": "cust006",
+    "name": "Eva Garcia",
+    "email": "eva.garcia@example.com",
+    "phone": "777-888-9999",
+    "address": "333 Birch Rd"
+  }
+]

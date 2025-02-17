@@ -1,0 +1,114 @@
+[
+    {
+      "billerId": "du001",
+      "billerName": "Du Mobile",
+      "billerType": "Mobile",
+      "customerId": "cust001",
+      "accountNumber": "1234567890"
+    },
+    {
+      "billerId": "etisalat001",
+      "billerName": "Etisalat Mobile",
+      "billerType": "Mobile",
+      "customerId": "cust001",
+      "accountNumber": "9876543210"
+    },
+    {
+      "billerId": "dewa001",
+      "billerName": "DEWA Electricity",
+      "billerType": "Electricity",
+      "customerId": "cust001",
+      "accountNumber": "2468135790"
+    },
+    {
+      "billerId": "rta001",
+      "billerName": "RTA",
+      "billerType": "Transportation",
+      "customerId": "cust001",
+      "accountNumber": "1029384756"
+    },
+    {
+      "billerId": "du002",
+      "billerName": "Du Mobile",
+      "billerType": "Mobile",
+      "customerId": "cust002",
+      "accountNumber": "1122334455"
+    },
+    {
+      "billerId": "dewa002",
+      "billerName": "DEWA Electricity",
+      "billerType": "Electricity",
+      "customerId": "cust002",
+      "accountNumber": "9988776655"
+    },
+    {
+      "billerId": "rta002",
+      "billerName": "RTA",
+      "billerType": "Transportation",
+      "customerId": "cust002",
+      "accountNumber": "5566778899"
+    },
+    {
+      "billerId": "etisalat003",
+      "billerName": "Etisalat Mobile",
+      "billerType": "Mobile",
+      "customerId": "cust003",
+      "accountNumber": "0099887766"
+    },
+    {
+      "billerId": "dewa003",
+      "billerName": "DEWA Electricity",
+      "billerType": "Electricity",
+      "customerId": "cust003",
+      "accountNumber": "1212121212"
+    },
+    {
+      "billerId": "du004",
+      "billerName": "Du Mobile",
+      "billerType": "Mobile",
+      "customerId": "cust004",
+      "accountNumber": "1472583690"
+    },
+    {
+      "billerId": "etisalat004",
+      "billerName": "Etisalat Mobile",
+      "billerType": "Mobile",
+      "customerId": "cust004",
+      "accountNumber": "9638527410"
+    },
+    {
+      "billerId": "rta004",
+      "billerName": "RTA",
+      "billerType": "Transportation",
+      "customerId": "cust004",
+      "accountNumber": "1616161616"
+    },
+    {
+      "billerId": "du005",
+      "billerName": "Du Mobile",
+      "billerType": "Mobile",
+      "customerId": "cust005",
+      "accountNumber": "1593572468"
+    },
+    {
+      "billerId": "dewa005",
+      "billerName": "DEWA Electricity",
+      "billerType": "Electricity",
+      "customerId": "cust005",
+      "accountNumber": "1717171717"
+    },
+    {
+      "billerId": "etisalat006",
+      "billerName": "Etisalat Mobile",
+      "billerType": "Mobile",
+      "customerId": "cust006",
+      "accountNumber": "0741852963"
+    },
+    {
+      "billerId": "rta006",
+      "billerName": "RTA",
+      "billerType": "Transportation",
+      "customerId": "cust006",
+      "accountNumber": "2020202020"
+    }
+  ]

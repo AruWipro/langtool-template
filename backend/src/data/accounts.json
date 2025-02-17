@@ -1,0 +1,58 @@
+[
+    {
+      "accountId": "acct001",
+      "customerId": "cust001",
+      "accountType": "Savings",
+      "accountNumber": "1234567890",
+      "balance": 15000,
+      "currency": "AED"
+    },
+    {
+      "accountId": "acct002",
+      "customerId": "cust001",
+      "accountType": "Checking",
+      "accountNumber": "9876543210",
+      "balance": 5000,
+      "currency": "AED"
+    },
+    {
+      "accountId": "acct003",
+      "customerId": "cust002",
+      "accountType": "CreditCard",
+      "accountNumber": "1122334455",
+      "balance": -2000,
+      "currency": "AED"
+    },
+    {
+      "accountId": "acct004",
+      "customerId": "cust003",
+      "accountType": "Loan",
+      "accountNumber": "5566778899",
+      "balance": 100000,
+      "currency": "AED"
+    },
+    {
+      "accountId": "acct005",
+      "customerId": "cust004",
+      "accountType": "Savings",
+      "accountNumber": "1472583690",
+      "balance": 25000,
+      "currency": "AED"
+    },
+    {
+      "accountId": "acct006",
+      "customerId": "cust005",
+      "accountType": "Checking",
+      "accountNumber": "1593572468",
+      "balance": 7500,
+      "currency": "AED"
+    },
+    {
+      "accountId": "acct007",
+      "customerId": "cust006",
+      "accountType": "CreditCard",
+      "accountNumber": "1258963470",
+      "balance": -500,
+      "currency": "AED"
+    }
+  ]
