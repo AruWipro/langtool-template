@@ -81,11 +81,17 @@ export class WorkflowManager {
       config?: RunnableConfig,
     ) => {
       const result = await agents.customerAgent.agent.invoke(state, config); // Directly use agents.customerAgent
-      const lastMessage = result.messages[result.messages.length - 1];
+      const messagesToReturn = result.messages.filter(
+        (message: BaseMessage) => message.content !== "" // Filter empty messages
+    );
+      
+      const lastMessage = messagesToReturn[messagesToReturn.length - 1];
+      
       return {
         messages: [
           new AIMessage({ content: lastMessage.content}),
-        ]
+        ],
+        state
       };
     };
   
@@ -94,11 +100,15 @@ export class WorkflowManager {
       config?: RunnableConfig,
     ) => {
       const result = await agents.accountsAgent.agent.invoke(state, config); // Directly use agents.accountsAgent
-      const lastMessage = result.messages[result.messages.length - 1];
+      const messagesToReturn = result.messages.filter(
+        (message: BaseMessage) => message.content !== "" // Filter empty messages
+    );
+      const lastMessage = messagesToReturn[messagesToReturn.length - 1];
       return {
         messages: [
-          new HumanMessage({ content: lastMessage.content, name: "human" }),
+          new AIMessage({ content: lastMessage.content}),
         ],
+        state
       };
     };
   
@@ -147,7 +157,7 @@ export class WorkflowManager {
             }),
           ],
         },
-        { recursionLimit: 10, ...config },
+        { recursionLimit: 15, ...config },
       );
 
       for await (const output of await streamResults) {

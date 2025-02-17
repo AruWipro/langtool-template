@@ -15,9 +15,9 @@ export class ListAccountsTool extends StructuredTool {
     }
 }
 
-export class GetBalanceTool extends StructuredTool {
+export class GetAccountBalanceTool extends StructuredTool {
     name = "get_balance";
-    description = "Retrieves balance based on accountId.";
+    description = "Retrieves account balance based on accountId.";
     schema = z.object({ accountId: z.string() }); // Changed to accountId
 
     async _call({ accountId }: z.infer<typeof this.schema>): Promise<any> { // Changed to accountId

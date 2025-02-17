@@ -2,7 +2,7 @@
 import { MemorySaver } from "@langchain/langgraph"; // Import graph components
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
 import { model } from "./model.js"; // Your LLM import
-import { GetBalanceTool, ListAccountsTool } from './tools/AccountsTools.js';
+import { GetAccountBalanceTool, ListAccountsTool } from './tools/AccountsTools.js';
 import { AddTool, DivideTool, MultiplyTool, SubtractTool } from './tools/ArthmeticTools.js';
 import { BillerTool, PaymentTool, ValidateBillerTool } from './tools/BillPaymentTools.js';
 import { CustomerDetailsTool } from './tools/CustomerTools.js';
@@ -35,7 +35,7 @@ export const agents = { // Same as before
           llm: model,
           tools: [new CustomerDetailsTool()],
           name: 'customer',
-          prompt: 'Retrieves customer details based on name and mobile number.',
+          prompt: 'Always reterives customer details based on name and mobile number.',
         }),
         capabilities: ["GetCustomerDetails"],
       },
@@ -51,7 +51,7 @@ export const agents = { // Same as before
       accountsAgent: {
         agent: createReactAgent({
           llm: model,
-          tools: [new ListAccountsTool(), new GetBalanceTool()],
+          tools: [new ListAccountsTool(), new GetAccountBalanceTool()],
           name: 'accounts',
           prompt: 'Fetches account list and retrieve balances. Helps is accont related activities',
         }),
